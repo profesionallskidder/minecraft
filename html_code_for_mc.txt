@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+        body {
+            font-family: 'Press Start 2P', cursive;
+            text-align: center;
+            background-color: #1e3c72; /* Minecraft-inspired color */
+            background-image: linear-gradient(147deg, #1e3c72 0%, #2a5298 74%);
+            color: #f1c40f; /* Minecraft gold color */
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        h1 {
+            margin: 20px 0;
+            font-size: 2.5em;
+            animation: fadeInDown 1s ease-out;
+            text-shadow: 2px 2px #000; /* Shadow for better readability */
+        }
+        p {
+            font-size: 1.2em;
+            margin: 15px 0;
+            animation: fadeInUp 1s ease-out;
+            text-shadow: 1px 1px #000; /* Shadow for better readability */
+        }
+        .highlight {
+            font-weight: bold;
+            color: #e74c3c; /* Minecraft red color */
+        }
+        img {
+            max-width: 80%;
+            height: auto;
+            margin: 20px 0;
+            animation: bounceIn 1.5s ease-out;
+            border: 5px solid #f1c40f; /* Gold border to match the theme */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Shadow for depth */
+        }
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        @keyframes bounceIn {
+            from, 20%, 40%, 60%, 80%, to {
+                animation-timing-function: ease-in-out;
+            }
+            0% {
+                opacity: 0;
+                transform: scale3d(.3, .3, .3);
+            }
+            20% {
+                transform: scale3d(1.1, 1.1, 1.1);
+            }
+            40% {
+                transform: scale3d(.9, .9, .9);
+            }
+            60% {
+                opacity: 1;
+                transform: scale3d(1.03, 1.03, 1.03);
+            }
+            80% {
+                transform: scale3d(.97, .97, .97);
+            }
+            to {
+                opacity: 1;
+                transform: scale3d(1, 1, 1);
+            }
+        }
+    </style>
+    <title>Two Week Phase Minecraft Server</title>
+</head>
+<body>
+    <h1>WHAT IS TWO WEEK PHASE?</h1>
+    <p>WE ARE A MINECRAFT SERVER!</p>
+    <p>WE HAVE ANTICHEAT, ANTI-XRAY, AND VANILLA PLUGINS TO KEEP THE GAMEPLAY PURE!</p>
+    <p>WE OFFER BEDROCK AND JAVA SERVER CROSSPLAY!</p>
+    <p>WE SOMETIMES HAVE MINIGAMES FOR EXTRA FUN!</p>
+    <p>WE HAVE A STRONG PLAYER BASE WITHOUT ANY ADVERTISING!</p>
+    <p>WE USE ATERNOS TO RUN THE SERVER, OPTIMIZED TO MINIMIZE LAG!</p>
+    <p><span class="highlight">JOIN TODAY!</span></p>
+    <img src="https://freepngtransparent.com/wp-content/uploads/2023/03/minecraft-png-166.png" alt="Minecraft">
+    <p>IP: <span class="highlight">2weeksgaming.aternos.me</span></p>
+    <p>PORT FOR BEDROCK USERS: <span class="highlight">44751</span></p>
+</body>
+</html>
